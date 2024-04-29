@@ -1,0 +1,162 @@
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+    padding: 1rem;
+    
+}
+nav li a:hover{
+    color: darkslategray;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+/* Main Section Starts */
+main section{
+    display: flex;
+}
+main section article{
+    flex: 1;
+    margin-right: 1rem;
+    
+}
+main section article div{
+    background-image: url(images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 70vh;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+main section article h1{
+    font-size: 3rem;
+    color: rgb(240, 157, 4);
+    margin-top: 1rem;
+}
+main section article .promo{
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+main section article a{
+    background-color: rgb(240, 157, 4);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main section article a:hover{
+    background-color: darkslategray;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+main section .card{
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+main section .card:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: scale(1.01);
+    transform: translate(-0.1rem, -0.1rem);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 .2rem 0 rgba(0, 0, 0, 0.1);
+}
+main section .card img{
+    margin-top: 2rem;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section .card h2{
+    text-align: center;
+    font-size: 1.25rem;
+    color: darkgrey;
+}
+main section .card p{
+    font-size: 1rem;
+    padding: 0 2rem;
+    text-align: justify;
+}
+/* Medium devices (tablets, 768px and lower) */
+@media (max-width: 768px) {  
+    header img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+    }
+    main section article div{
+        background-image: url(images/hero-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        height: 70vh;
+        width: 70vw;
+        padding: 3rem;
+        
+    }
+    main section article .promo{
+        font-size: 2rem;
+        color: white;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+/* Large devices (desktops, 992px and lower) */
+@media (max-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and lower) */
+@media (max-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and lower) */
+@media (max-width: 1400px) {  }
+/* Main Section Ends */
+/* Footer section starts */
+footer {
+    display: flex;
+    margin-top: 3rem;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 20px 0 darkslategray;
+}
+footer section div img{
+    width: 30%;
+    margin-left: 5rem;
+
+}
+footer section div p{
+    margin-left: 2rem;
+    color: black;
+}
+/* Footer section ends */
